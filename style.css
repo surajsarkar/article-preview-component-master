@@ -15,7 +15,7 @@ body {
 
 main {
   border-radius: 14px;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
   background-color: white;
 
@@ -31,6 +31,7 @@ main {
 
 .sheared-pic {
   width: 260px;
+  border-radius: 14px 0 0 14px;
 }
 
 article {
@@ -109,7 +110,6 @@ p {
 
 .icon-block {
   position: absolute;
-  z-index: 1;
 
   bottom: 60px;
   right: -12%;
@@ -138,10 +138,11 @@ p {
 
   .sheared-pic {
     width: 100%;
+    border-radius: 14px 14px 0 0;
   }
 
   .icon-share {
-    z-index: 2;
+    z-index: 1;
   }
   .icon-share:hover {
     background-color: white;
